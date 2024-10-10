@@ -10,7 +10,7 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %} -->
 
 ## Journal Papers (Published and Under Reviewed)
 
@@ -32,7 +32,7 @@ nav_order: 2
   **"Development of a Comprehensive Framework for the Assessment of the Effects of Electric Trucks' Weight Increase on Road Infrastructure: A New York City Case Study."**  
   Accepted in **104th Annual Meeting of the Transportation Research Board** (TRB 2025).
 
-- Di Sha, **Zilin Bian***, Fan Zuo, Kaan Ozbay, Jingqin Gao, Yu Tang.  
+- Di Sha, **Zilin Bian**, Fan Zuo, Kaan Ozbay, Jingqin Gao, Yu Tang.  
   **"Graph Neural Network Based Clustering for Enhancing Traffic Pattern Identification in Traffic Simulation Calibration and Validation."**  
   Accepted in **104th Annual Meeting of the Transportation Research Board** (TRB 2025).
 

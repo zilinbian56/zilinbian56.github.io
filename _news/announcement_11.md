@@ -26,7 +26,7 @@ The workshop was host on Jan. 11, 2024 at Washington. D.C., where more than 140 
 
 ---
 A total of 3 papers were presented as first and/or corresponding author at TRB2024.
-- Eren Kaval, `Zilin Bian∗`, Kaan Ozbay. ”Data-driven quantification of the resilience of enforcement policies on transportation systems: a comparative study of two major winter storms in Buffalo, New York.”
-- Ruixuan Zhang, Tu Lan, `Zilin Bian∗`, Kaan Ozbay. ”MSinT: a multi-view spatioinformed transformer for overweighted vehicle forecasting.”
-- `Zilin Bian∗`, Dachuan Zuo, Jingqin Gao, Kaan Ozbay, Zhenning Li. ”Informed along the road: roadway capacity driven graph convolution network for networkwide traffic prediction.” [preprint](https://arxiv.org/abs/2406.13057)
+- Eren Kaval, **Zilin Bian***, Kaan Ozbay. ”Data-driven quantification of the resilience of enforcement policies on transportation systems: a comparative study of two major winter storms in Buffalo, New York.”
+- Ruixuan Zhang, Tu Lan, **Zilin Bian***, Kaan Ozbay. ”MSinT: a multi-view spatioinformed transformer for overweighted vehicle forecasting.”
+- **Zilin Bian***, Dachuan Zuo, Jingqin Gao, Kaan Ozbay, Zhenning Li. ”Informed along the road: roadway capacity driven graph convolution network for networkwide traffic prediction.” [preprint](https://arxiv.org/abs/2406.13057)
 

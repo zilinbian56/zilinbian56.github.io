@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Postdoctoral Research Associate, New York University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: bio-photo_ZB-2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>RM466</p>
+    <p>6 MetroTech Center</p> 
+    <p>Brooklyn, NY 11201</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a Postdoctoral Research Associate in C2SMARTER Center at New York University. I earned my Ph.D. degree in Transportation Planning and Engineering from New York University, working with Professor [Kaan Ozbay](https://engineering.nyu.edu/faculty/kaan-ozbay). I also held a M.S. degree in Civil Engineering from University of Florida, and a B.S. degree from Harbin Institute of Technology in China. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+> My research originated from a very simple question: **Do they (e.g., decision maker, transportation manager/operator/planner, policy maker) feel what we (e.g., driver, pedestrian, VRU, etc) feel in our daily urban system?**
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on bridging the gap between transportation managers, planners, and policymakers, and the experiences of travelers and vulnerable road users. Through innovative approaches such as **digital twins, spatio-temporal modeling, machine/deep learning, control and optimization theory**, I aim to provide those in management roles with a deeper, comprehensive understanding of real-world traveler experiences. My goal is to develop data-driven models and tools that make transportation systems safer, more efficient, sustainable, and resilient, ultimately enabling better-informed decisions that benefit both travelers and the broader community.
+
+My research interests include `Urban Decision Science`, `Transportation Digital Twins System`, `Urban Smart Sensing`, `Transportation Mobility and Incident Management`, `Transportation Resilience`, `Connected and Automated Vehicles`,  `Transport Policy Regulation and Impact`.

@@ -302,7 +302,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["digital twins", "AI", "operation", "planning", "policy", "equity"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

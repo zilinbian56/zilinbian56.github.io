@@ -6,7 +6,7 @@ tags: digital-twins AI operation
 giscus_comments: false
 date: 2024-09-06
 featured: true
-
+thumbnail: assets/img/digitaltwin-background-1.png
 # authors:
 #   - name: Albert Einstein
 #     url: "https://en.wikipedia.org/wiki/Albert_Einstein"

@@ -1,12 +1,12 @@
 ---
 layout: distill
-title: Urban Smart Sensing
-description: How to use existing sensors to enhance the situational awareness of large-scale urban system? My research aims to answer this question in terms of cost-efficiency, resiliency, and accuracy.
-tags: AI operation
+title: Mobility and Incident Management in Urban Systems
+description: AI-driven methods to provide traffic impact for immediate, near-future, and long-term period, aiding mobility and incident management process.
+tags: AI operation planning
 giscus_comments: false
-date: 2024-08-11
+date: 2024-07-23
 featured: true
-thumbnail: assets/img/smartsensing-3.png
+thumbnail: assets/img/mobility-0.jpeg
 
 # authors:
 #   - name: Albert Einstein

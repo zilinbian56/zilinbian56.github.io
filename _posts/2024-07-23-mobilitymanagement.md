@@ -57,71 +57,24 @@ _styles: >
   }
 ---
 
-In today's data-driven world, transportation researchers are using advanced technologies to tap into the enormous potential of video data for urban management. As the Federal Highway Administration (FHWA) notes, this data is being applied to a variety of areas such as system planning, operations, safety monitoring, and infrastructure condition assessments.
+In our rapidly urbanizing world, ensuring smooth and safe mobility within cities is a complex challenge, made more pressing by the increasing frequency of unexpected disruptions and incidents on the road. My research in urban mobility and incident management focuses on leveraging **spatio-temporal modeling** techniques, by making analogies between ``road network and its topological elements``, 
+to improve real-time, near-future, and long-term situational awareness and response capabilities for urban transportation systems. By developing tools that enable proactive management and resilience in the face of congestion and incidents, I aim to enhance both the safety and efficiency of urban mobility networks.
 
-By combining video data with cutting-edge AI and deep learning methods, we can unlock a new stream of valuable information. This enables cities to become "machine eyes" for real-time insights, allowing us to monitor urban environments with unprecedented detail and precision.
+Traffic incidents, such as accidents and work zones, introduce significant challenges to urban transportation systems, often resulting in congestion, delays, and cascading disruptions that affect a wide area. These incidents not only hinder the flow of traffic but also create heightened safety risks, as congestion and delays can increase the likelihood of secondary accidents.
 
-Imagine a city equipped with intelligent sensing systems—tracking traffic, detecting congestion points, monitoring safety hazards, and even assessing infrastructure wear and tear—all in real-time. With this automation, we can shift from static datasets to dynamic, continuous flows of information that lead to smarter, faster, and more efficient decision-making.
+My research begins by investigating the impact of traffic incidents on urban transportation systems. For example, I applied Artificial Neural Networks (ANN) and Monte Carlo Dropout to quantify the uncertainty associated with reduced road capacity due to work zones. Expanding to unexpected traffic accidents, I first developed an adaptive Bayesian network method to predict accident duration, providing valuable insights for incident response. Building on this, I designed a stacked autoencoder (SAE) combined with Long Short-Term Memory (LSTM) networks to analyze traffic flow patterns influenced by accidents. Recognizing the importance of both spatial and temporal correlations, I then expanded my research to model traffic networks as graphs, effectively capturing how traffic flows propagate along connected road segments. To further enhance temporal understanding, I integrated road capacity data into a Graph Convolutional Network (GCN) paired with a Temporal Convolution Network (TCN), allowing the model to better learn time-dependent traffic dependencies.
+To further advance prediction capabilities, I developed a Multi-Scale Graph Wavelet Network with Temporal Convolution (MSGWTCN), which leverages graph wavelet properties to continuously adjust its scales during the learning process. This adaptive scaling allows MSGWTCN to effectively capture both short-range and long-range traffic propagation, providing a more nuanced understanding of spatial patterns and temporal sequences. 
 
-The figure below illustrates how **Urban Sensing Systems** collect and process data from multiple domains, such as pedestrian movement, traffic conditions, parking availability, freight logistics, emergency response, and environmental monitoring. AI-powered video analysis enables these systems to provide actionable insights, empowering city planners and transportation managers to make informed decisions that improve safety, mobility, and quality of life.
+Beyond immediate situational awareness of traffic flow and congestion, my research also explores how traffic incidents might affect traffic in the near future and over the long term. To address this, I designed a data-driven framework that learns from empirical patterns of traffic impacts caused by pre-planned work zones, using machine learning models to provide predictive insights. This framework forecasts the potential impacts of upcoming or scheduled work zones based on planned road closure details and their spatial-temporal characteristics, such as location, start/end time, and duration. The framework has been deployed as a web-based tool, the Data-driven Work Zone Impact and Conflict Estimation platform ([DWICE](https://c2smarter.engineering.nyu.edu/developing-a-multi-agency-multi-modal-construction-management-software-tool-to-enhance-coordination-of-construction-projects-city-wide-during-planning-and-operation-phases/)), which is currently utilized by the New York State Department of Transportation (NYSDOT) to support more informed planning and impact mitigation. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/smartsensing-0.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Multiple usage of traffic sensing in daily urban system.
-</div>
-
-In the realm of urban management, enhancing situational awareness is crucial to improving decision-making processes. My research aims to answer the pressing question: 
-> How can existing urban sensors be optimized to enhance situational awareness across large-scale urban systems? 
-
-By focusing on accuracy, cost-efficiency, and resiliency, my work seeks to push the boundaries of what urban sensing systems can achieve.
-
-On the detection side, a deep-learning-based work zone object detection model using a data-centric approach is developed. This method iteratively improves the model’s performance by augmenting a custom training dataset from multiple sources, overcoming the challenge of sparse annotated real-world work zone images. With this in place, I then explore how existing traffic sensors can be effectively deployed to gain real-time traffic information. One focus of my research is on the flexibility of smart sensors. These sensors are often limited by power constraints, forcing a trade-off between data collection duration and accuracy/resolution. To address this, a learning-based framework that strategically determines observation timings for battery-powered devices is developed. This approach reconstructs full data streams from sparsely sampled observations, minimizing performance loss while significantly extending the system's lifetime.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/smartsensing-1.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    How to use the existing pan-tilt-zoom cameras installed along each intersection to return network-level situational awareness?
-</div>
-
-Another aspect of my research addresses the **underutilization of urban traffic cameras**. While cities often have wide coverage of traffic cameras along road segments and intersections, these cameras are typically only used when nearby accidents occur. Most of the time, they remain idle. 
-> How can we transform the underutilized network of urban traffic cameras into a cooperative, real-time, and network-wide traffic sensing system to enhance the overall efficiency of urban traffic monitoring and management?
-
-To maximize the utility of these deployed cameras, I developed a **distributed and cooperative framework** that allows them to work together and provide network-wide traffic information. This dramatically enhances the cost-efficiency of existing urban sensing systems.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/smartsensing-2.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    If some of the current sensors go down, can the rest of traffic sensors (no matter what type) work with each other and stay resilent to such malfunction situation?
-</div>
-
-Lastly, my research extends beyond traffic cameras to explore collaboration with other sensing techniques, including pavement-invasive detectors (e.g., inductive loops, magnetometers) and non-pavement-invasive detectors (e.g., microwave radar, ultrasonic sensors). A key question I address is: 
-> What happens when some sensors malfunction? Can the remaining sensing systems cooperate to still provide satisfactory performance? 
-
-My work seeks to build a resilient sensing network where failures in individual sensors do not compromise the overall system’s capability.
 
 
 ## Resources
-- Tao Li, **Zilin Bian***, Haozhe Lei, Fan Zuo, Ya-Ting Yang, Quanyan Zhu, Zhenning Li, Kaan Ozbay.
-  **Multi-level traffic-responsive tilt camera surveillance through predictive correlated online learning.**
-  Transportation Research Part C: Emerging Technologies 167 (2024): 104804.
-- Tao Li, **Zilin Bian***, Haozhe Lei, Fan Zuo, Ya-Ting Yang, Quanyan Zhu, Kaan Ozbay.  
-  **"Enhancing Network-Wide Situational Awareness through Passive and Proactive Online Control: A Graph-Based Transformer Approach for Resilient Urban Sensing Systems."**  
-  Details coming soon.
-- Fan Zuo, Jingqin Gao, Kaan Ozbay, **Zilin Bian**, Daniel Zhang.
-**Urban Work Zone Detection and Sizing: A Data-Centric Training and Topology-Based Inference Approach.**
-In 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), pp. 3235-3240. IEEE, 2023.
-- Ruixuan Zhang, Wenyu Han, **Zilin Bian**, Kaan Ozbay, Chen Feng.
-**Learning When to See for Long-term Traffic Data Collection on Power-constrained Devices**
-In 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC), pp. 3235-3240. IEEE, 2023.
+- **Zilin Bian** and Kaan Ozbay. **Estimating uncertainty of work zone capacity using neural network models.** Transportation Research Record 2673 (2019): 49-59.
+- **Zilin Bian**, Kaan Ozbay and Abdullah Kurkcu. **Travel time uncertainty prediction in the presence of non-recurrent traffic congestion.** Accepted in 99th Annual Meeting of the Transportation Research Board (TRB 2020).
+- **Zilin Bian**, Dachuan Zuo, Jingqin Gao, Kaan Ozbay, Zhenning Li. **Informed along the road: roadway capacity driven graph convolution network for network- wide traffic prediction.** Accepted in IEEE Intelligent Transportation Systems Conference (ITSC 2024). [link](https://arxiv.org/abs/2406.13057)
+- **Zilin Bian**, Dachuan Zuo, Jingqin Gao and Kaan Ozbay. **Adaptive traffic incident duration prediction: a hybrid approach of change detection and Bayesian network.** Transportmetrica A: Transport Science, under revision.
+- **Zilin Bian**, Jingqin Gao, Kaan Ozbay and Zhenning Li. **Traffic prediction considering multiple levels of spatial-temporal information: a multi-scale graph wavelet-based approach** Transportmetrica B: Transport Dynamics, under review. [link](https://arxiv.org/abs/2406.13038)
+
 
 ---

@@ -26,8 +26,6 @@ Recognizing the current gap in comprehensive knowledge surrounding ITS projects,
 ## Project Description
 We will develop a knowledge base to track the deployment of ITS projects and summarize their equity outcomes, performance measures, tools, benefits, costs, and best practices in contributing to US DOT strategic goals. The team will leverage its experience on a similar national ITSJPO project to collect, synthesize, and transfer knowledge. A web portal will be created to connect academic research and the state of the practice. Phase I of the project will start from University Transportation Center (UTC) research, especially on congestion reduction and studies that contains equity considerations in transportation. This knowledge base will especially focus on knowledge that has not been studied well in the past practices, including categorization of new measures of effectiveness (MOE) used for emerging technologies,  summary of tech transfer methodology, operationalized tools and outcome of the research, as well as equity aspect of the deployments. AI-based solutions, including large language models (LLMs), will be developed to assist the knowledge synthesis process with manual validation to evaluate the effectiveness of using this AI-based approach. 
 
-## A Knowledge Capture Chatbot Demo
-After an initial fine-tune, we managed to show a demo of knowledge capture platform integrating semantic search as well as LLM-powered chatbot. Click here to play: [link](https://kc-chatbot.c2smarter-it.org)
 
 ## Resources
 Project details: [link](https://c2smarter.engineering.nyu.edu/cip/project/GaoBianZuo2023)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I'm thrilled to annouce that I'm invited to give a talk at the podium session of TRB2025, see you soon!
-img: assets/img/DigitalTwin Workshop TRB Flyer.png
+#img: assets/img/DigitalTwin Workshop TRB Flyer.png
 date: 2024-12-5 11:00:00-0400
 inline: false
 related_posts: false

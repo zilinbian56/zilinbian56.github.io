@@ -5,7 +5,7 @@ permalink: /projects/
 description: A list of projects I served as PI/Co-PI.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [PI/Co-PI]
 horizontal: false
 ---
 

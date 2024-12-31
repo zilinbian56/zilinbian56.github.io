@@ -4,7 +4,7 @@ title: Smart Transportation Planning and Management for High-Impact Events
 description: Integrating Digital Twin and Computer Vision Technologies
 img: assets/img/fifa-metlife-5.png
 importance: 1
-category: work
+category: PI/Co-PI
 related_publications: false
 ---
 ## Introduction

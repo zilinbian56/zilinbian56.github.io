@@ -9,9 +9,7 @@ profile:
   image: bio-photo_ZB-2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>RM466</p>
-    <p>6 MetroTech Center</p> 
-    <p>Brooklyn, NY 11201</p>
+    <p>Feel free to email me: zb536 at nyu dot edu</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

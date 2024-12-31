@@ -3,8 +3,8 @@ layout: page
 title: Fine-tuned LLM for Transportation Report Reasoning
 description: A knowledge capture and deployment tracking platform for UTC research
 img: assets/img/knowledgecapture-1.png
-importance: 1
-category: work
+importance: 3
+category: PI/Co-PI
 related_publications: false
 ---
 ## Background

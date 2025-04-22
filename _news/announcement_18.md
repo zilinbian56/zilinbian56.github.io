@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thrilled share that my two papers as corresponding author have been accepted at Accident Analysis & Prevention!
+title: Two of my papers as corresponding author have been accepted at Accident Analysis & Prevention!
 #img: assets/img/fifa-metlife-0.jpg
 date: 2025-4-22 11:00:00-0400
 inline: false

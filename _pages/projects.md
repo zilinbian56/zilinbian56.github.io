@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A list of projects I served as PI/Co-PI.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [PI/Co-PI]
 horizontal: false

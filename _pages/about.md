@@ -12,11 +12,11 @@ profile:
     <p>Feel free to email me: zilin dot bian at rit dot edu</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an incoming Assistant Professor at Rochester Institute of Technology (RIT). I earned my Ph.D. degree in Transportation Planning and Engineering from New York University, working with Professor [Kaan Ozbay](https://engineering.nyu.edu/faculty/kaan-ozbay). I also held a M.S. degree in Civil Engineering from University of Florida, and a B.S. degree from Harbin Institute of Technology in China. 
+I am an Assistant Professor at Rochester Institute of Technology (RIT). I earned my Ph.D. degree in Transportation Planning and Engineering from New York University, working with Professor [Kaan Ozbay](https://engineering.nyu.edu/faculty/kaan-ozbay). I also held a M.S. degree in Civil Engineering from University of Florida, and a B.S. degree from Harbin Institute of Technology in China. 
 
 <!-- > My research originated from a very simple question: **Do they (e.g., decision maker, transportation manager/operator/planner, policy maker) feel what we (e.g., driver, pedestrian, VRU, etc) feel in our daily urban system?** -->
 

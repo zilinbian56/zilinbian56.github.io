@@ -7,7 +7,7 @@ inline: false
 related_posts: false
 ---
 C2SMARTER team successfully host a digital twin workshop during the Transportation Research Board 2024 Annual Meeting. A diverse group of 10 speakers from universities (UCLA, NYU, UMich, Columbia, RPI, TUMunich, FIU), agencies (Noblis, VDOT), and industries (KLD) convened to explore the evolving role of digital twins. They discussed applications ranging from traffic signal control to large-scale urban mobility management, highlighting how AI and machine learning are advancing the ability to process complex data inputs and outputs.
-The workshop was host on Jan. 11, 2024 at Washington. D.C., where more than 140 people attended this workshop. [Click here for more details](https://c2smarter.engineering.nyu.edu/digital-twin-workshop-trb-2024/)
+The workshop was host on Jan. 11, 2024 at Washington. D.C., where more than 140 people attended this workshop. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

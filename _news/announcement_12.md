@@ -7,7 +7,7 @@ inline: false
 related_posts: false
 ---
 I'm going to give a talk about my recent digital twin-related works titled **"AI/ML enhanced Digital-Twin Based Risk-Aware Intelligent Mobility Simulation and Analytics for Incident Management Operations in New York City"**. ``Time: Jan.05 1:30PM-4:30PM. Location: 103A Convention Center, Washington D.C.``
-[Click here for more details](https://c2smarter.engineering.nyu.edu/digital-twins-workshop-trb-104th-annual-meeting/)
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
